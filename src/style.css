@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-family: Inter;
+}
+
+
+.nav{
+    display: flex;
+    background-color: #F55A5A;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.globe{
+    margin-right: 8px;
+}
+
+.nav--text{
+    color: white;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.travel{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 36px;
+    max-width: 100%;
+    height: 168px;
+}
+
+.travel--img{
+    width: 128px;
+    height: 168px;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+
+.travel--details{
+
+}
+
+.travel--loc{
+    display: flex;
+    align-items: center;
+    line-height: 12px;
+    margin-top: 14px;
+    
+}
+
+.loc--name{
+    margin-left: 4px;
+    margin-right: 12px;
+    font-weight: 400px;
+    font-size: 10px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.g--link{
+    color: gray;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #2B283A;
+    margin-bottom: 7px;
+    margin-top: 4px;
+}
+
+.date{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.desc{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    margin-top: 9px;
+}
